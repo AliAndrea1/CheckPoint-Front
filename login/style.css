@@ -1,0 +1,84 @@
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebecef;
+}
+
+header{
+    text-align: center;
+}
+
+header h2{
+    color:rgb(148, 13, 13);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    position: relative;
+    bottom: 40px;
+}
+header p{
+    color:rgb(112, 109, 109);
+    position: relative;
+    bottom: 20px;
+}
+
+section {
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+    
+}
+
+section span{
+    color:rgb(109, 106, 106);
+    font-size: small;
+}
+section a{
+    color: rgb(109, 106, 106);
+    font-size: small;
+}
+
+form {
+    justify-content: center;
+}
+
+section input {
+    border-radius: 100;
+    border: 2px solid #5e2127;
+}
+
+.caixa {
+    width: 200px;
+    height: 20px;
+}
+
+.lembrar_pass {
+    display: block;
+    position:relative;
+    right: 100px;
+    top: 40px;
+}
+
+.esqueceu_pass {
+    display: block;
+    position: relative;
+    left: 90px;
+    top: 20px;
+}
+button  {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 200px;
+    height: 30px;
+    background-color: #5e2127;
+    letter-spacing: 2px;
+    font-size:medium;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}

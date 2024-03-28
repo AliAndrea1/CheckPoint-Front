@@ -1,0 +1,50 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #7c5d5d;
+    padding: 8px;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+}
+.footer {
+    background-color: #5e2129;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    margin-top: 150px;
+}
+.footer a {
+    color: white;
+    text-decoration: underline;
+}
+a{
+    color: #5e2129; 
+    text-decoration: none; 
+    margin-right: 20px;
+    text-align: center;
+
+    }
+    header{
+        text-align: center;
+        font-size: 25px;
+        margin-top: 20px;
+        
+    }
+    .linha {
+        border-bottom: 3px solid #5e2129; 
+        margin-top: 30px; 
+        margin-bottom: 30px; 
+    }
+    
